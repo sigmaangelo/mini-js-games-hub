@@ -20,6 +20,16 @@ const games = [
     duration: "2 min rounds",
     tags: ["2 players", "grid", "classic"],
   },
+    {
+    name: "slopee",
+    path: "games/Slope/index.html",
+    icon: "🐍",
+    description:
+      "Guide the snake, snack on pixels, and avoid hitting the walls or yourself.",
+    category: "Arcade",
+    duration: "Endless",
+    tags: ["arcade", "retro", "keyboard"],
+  },
   {
     name: "Snake Game",
     path: "games/snake/index.html",
