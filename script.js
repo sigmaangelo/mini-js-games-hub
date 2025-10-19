@@ -1,5 +1,16 @@
 const games = [
   {
+  name: "Slope",
+  path: "games/Slope/index.html",
+  icon: "🐤",
+  description:
+    "Flap your wings, dodge pipes, and see how far you can go without crashing! A remake of the classic endless flyer.",
+  category: "Arcade",
+  duration: "Endless",
+  tags: ["arcade", "reflex", "flying", "endless"]
+},
+
+  {
     name: "Simon Says",
     path: "games/Simon-Says-Game/index.html",
     icon: "🧠",
@@ -20,16 +31,7 @@ const games = [
     duration: "2 min rounds",
     tags: ["2 players", "grid", "classic"],
   },
-    {
-    name: "slopee",
-    path: "games/Slope/index.html",
-    icon: "🐍",
-    description:
-      "Guide the snake, snack on pixels, and avoid hitting the walls or yourself.",
-    category: "Arcade",
-    duration: "Endless",
-    tags: ["arcade", "retro", "keyboard"],
-  },
+   
   {
     name: "Snake Game",
     path: "games/snake/index.html",
